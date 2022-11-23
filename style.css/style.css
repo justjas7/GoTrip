@@ -1,6 +1,7 @@
 @import url(./fonts.css);
+@import url(./media.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,29 +9,29 @@
     list-style: none;
 }
 
-body{
+body {
     background: #EFEFEF;
 }
 
-.header{
+.header {
     background: #3E8989;
     padding: 37px 165px;
 }
 
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
 }
 
-.wrap{
+.wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
@@ -39,12 +40,12 @@ body{
     text-align: left;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-.link{
+.link {
     border-bottom: 2px solid transparent;
     padding: 0 15px 5px;
     color: white;
@@ -57,17 +58,17 @@ body{
     transition: 0.4s;
 }
 
-.link:hover{
+.link:hover {
     border-bottom: 2px solid white;
 }
 
-.search{
+.search {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.search_text{
+.search_text {
     padding: 8px 20px;
     border: 1px solid white;
     border-radius: 10px 0 0 10px;
@@ -81,7 +82,7 @@ body{
     outline: none;
 }
 
-.submit_btn{
+.submit_btn {
     padding: 9px 14px;
     border: 1px solid #295E5E;
     background: #295E5E;
@@ -94,7 +95,8 @@ body{
     text-align: left;
     color: white;
 }
-.banner{
+
+.banner {
     background: url(../img/pic.png);
     background-size: cover;
     height: 850px;
@@ -102,7 +104,7 @@ body{
     background-position: center;
 }
 
-.banner_wrap{
+.banner_wrap {
     height: 100%;
     display: flex;
     align-items: center;
@@ -110,7 +112,7 @@ body{
     color: white;
 }
 
-.banner_h{
+.banner_h {
     font-family: 'Rubik', sans-serif;
     font-size: 80px;
     font-weight: 600;
@@ -121,7 +123,7 @@ body{
     margin-bottom: 20px;
 }
 
-.banner_p{
+.banner_p {
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -131,7 +133,7 @@ body{
     margin-bottom: 50px;
 }
 
-.banner_btn{
+.banner_btn {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -147,16 +149,16 @@ body{
     transition: 0.4s;
 }
 
-.banner_btn:hover{
+.banner_btn:hover {
     background: white;
     color: #B4436C;
 }
 
-.aboutus{
+.aboutus {
     padding: 80px 0 97px;
 }
 
-.aboutus_h{
+.aboutus_h {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -167,18 +169,18 @@ body{
     margin-bottom: 50px;
 }
 
-.aboutus_wrap{
+.aboutus_wrap {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.aboutus_desc{
+.aboutus_desc {
     width: 100%;
     max-width: 555px;
 }
 
-.desc-p{
+.desc-p {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -188,8 +190,8 @@ body{
     margin-bottom: 20px;
 }
 
-.desc__p{
-    font-family: 'Rubik',sans-serif;
+.desc__p {
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -197,11 +199,11 @@ body{
     text-align: left;
 }
 
-.catalog0{
+.catalog0 {
     color: #3E8989;
 }
 
-.catalog_h1{
+.catalog_h1 {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -211,28 +213,28 @@ body{
     margin-bottom: 53px;
 }
 
-.card_clothes{
+.card_clothes {
     background: #E5E5E5;
     padding: 1px 33px;
     width: 263px;
     text-align: center;
 }
 
-.card_shoes{
+.card_shoes {
     background: #E5E5E5;
     padding: 77px 23px;
     width: 263px;
     text-align: center;
 }
 
-.card_tents{
+.card_tents {
     background: #E5E5E5;
     padding: 75px 2px;
     width: 263px;
     text-align: center;
 }
 
-.card_backpacks{
+.card_backpacks {
 
     background: #E5E5E5;
     padding: 19px 0;
@@ -240,12 +242,12 @@ body{
     text-align: center;
 }
 
-.card_body{
+.card_body {
     margin-top: 32px;
     display: flex;
 }
 
-.card_link{
+.card_link {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -257,22 +259,22 @@ body{
     transition: 0.4s;
 }
 
-.card_link:hover{
+.card_link:hover {
     color: #B4436C;
 }
 
-.catalog__wrap{
+.catalog__wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
 }
 
-.contacts{
+.contacts {
     color: #3E8989;
 }
 
-.contacts__h{
+.contacts__h {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -282,7 +284,7 @@ body{
     margin: 100px 388px 50px 0;
 }
 
-.contacts__p{
+.contacts__p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -293,7 +295,7 @@ body{
     margin-right: 388px;
 }
 
-.del{
+.del {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -303,22 +305,22 @@ body{
     color: black;
 }
 
-.gmail{
+.gmail {
     padding: 20px 0 104px 0;
 }
 
-.contacts_wrap{
+.contacts_wrap {
     display: flex;
     justify-content: space-between;
 }
 
-.footer{
+.footer {
     background: #3E8989;
     color: white;
     padding: 40px 0 15px;
 }
 
-.footer__wrap{
+.footer__wrap {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -326,14 +328,14 @@ body{
     gap: 59px;
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
 }
 
-.footer__menu{
+.footer__menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +348,7 @@ body{
     color: white;
 }
 
-.end__p{
+.end__p {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -357,8 +359,9 @@ body{
     margin-right: 6px;
 }
 
-.theend{
+.theend {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+
